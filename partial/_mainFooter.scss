@@ -1,0 +1,136 @@
+.main-footer {
+  .container {
+    width: 95%;
+  }
+  padding: $sectionPadding;
+  .main-footer__content {
+    h3 {
+      font: {
+        size: 46px;
+        font-weight: $font700;
+        font-family: $montFont;
+      }
+      color: $silver;
+    }
+    .main-footer__content__text {
+      border-bottom: 1px solid $mercury;
+      margin-bottom: 10px;
+      p {
+        font: {
+          size: 15px;
+          weight: $font400;
+          family: $robotoFont;
+        }
+        line-height: 24px;
+        color: $dustyGray;
+        margin-bottom: 40px;
+      }
+      h4 {
+        font: {
+          size: 18px;
+          weight: $font700;
+          family: $montFont;
+        }
+        color: $mineShaft;
+        padding-bottom: 10px;
+        span {
+          font: {
+            size: 16px;
+            weight: $font300;
+          }
+        }
+      }
+    }
+    .social {
+      span {
+        font-size: 15px;
+        line-height: 24px;
+        color: $dustyGray;
+        font: {
+          weight: $font300;
+          style: italic;
+          family: $robotoFont;
+        }
+      }
+      i {
+        color: $morningGlory;
+        font-size: 20px;
+      }
+    }
+    .input-group {
+      input {
+        font: {
+          size: 15px;
+          weight: $font300;
+          style: italic;
+          family: $robotoFont;
+        }
+        max-width: 230px;
+        line-height: 24px;
+        border: 1px solid $silver;
+      }
+      input::placeholder {
+        color: $silver;
+      }
+      button {
+        background-color: $morningGlory;
+        border: none;
+        border-radius: 0;
+        font: {
+          size: 14px;
+          weight: $font700;
+          family: $montFont;
+        }
+        text-align: center;
+      }
+    }
+  }
+
+  .main-footer__blogs {
+    h3 {
+      font: {
+        size: 14px;
+        weight: $font400;
+        family: $montFont;
+      }
+      color: $mineShaft;
+    }
+
+    h6 {
+      font: {
+        size: 12px;
+        weight: $font400;
+        family: $montFont;
+      }
+      line-height: 18px;
+      color: $mineShaft;
+    }
+    p {
+      font: {
+        size: 13px;
+        weight: $font300;
+        style: italic;
+        family: $robotoFont;
+      }
+      line-height: 24px;
+      color: $dustyGray;
+    }
+  }
+  .main-footer__insta {
+    h3 {
+      font: {
+        size: 14px;
+        weight: $font400;
+        family: $montFont;
+      }
+      color: $mineShaft;
+    }
+  }
+  @media (min-width: 768px) {
+    .container,
+    .container-md,
+    .container-sm {
+      max-width: 100%;
+    }
+  }
+}

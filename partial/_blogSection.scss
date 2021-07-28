@@ -1,0 +1,60 @@
+.blog {
+  padding: $sectionPadding;
+  .blog__title {
+    @extend %sectionTitle;
+  }
+  .card {
+    .card-title {
+      font: {
+        size: 14px;
+        weight: $font400;
+        family: $montFont;
+      }
+      color: $mineShaft;
+    }
+    .card-text {
+      font: {
+        size: 15px;
+        weight: $font400;
+        family: $robotoFont;
+      }
+      line-height: 24px;
+      color: $dustyGray;
+    }
+    .card-footer {
+      color: $morningGlory;
+      background: none;
+      span {
+        font: {
+          weight: $font400;
+          style: italic;
+          family: $robotoFont;
+        }
+        color: $dustyGray;
+      }
+    }
+    .blog__overlay {
+      width: 60px;
+      height: 70px;
+      background-color: $morningGlory;
+      color: $white;
+      text-align: center;
+      margin-left: -6px;
+      margin-bottom: 6px;
+      p {
+        font: {
+          size: 30px;
+          weight: $font700;
+          family: $montFont;
+        }
+        margin-bottom: 0;
+      }
+      span {
+        font: {
+          size: 16px;
+          weight: $font300;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.quote {
+  padding: $sectionPadding;
+  .media-body {
+    p {
+      font: {
+        size: 24px;
+        weight: $font300;
+        style: italic;
+        family: $robotoFont;
+      }
+      color: $dustyGray;
+      line-height: 36px;
+    }
+    footer {
+      h4 {
+        font: {
+          size: 24px;
+          weight: $font400;
+          family: $kaushanFont;
+        }
+        color: $mineShaft;
+      }
+    }
+  }
+}

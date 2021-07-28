@@ -1,0 +1,34 @@
+.service {
+  padding: $sectionPadding;
+  .service__title {
+    @extend %sectionTitle;
+  }
+  .service__text {
+    @extend %text;
+    width: 85%;
+  }
+  i {
+    color: $morningGlory;
+  }
+  h2 {
+    button {
+      font: {
+        size: 14px;
+        weight: $font400;
+        family: $montFont;
+      }
+      color: $mineShaft;
+    }
+  }
+  .card-body {
+    height: 100px;
+    line-height: 24px;
+    font: {
+      size: 15px;
+      weight: $font300;
+      style: italic;
+      family: $robotoFont;
+    }
+    color: $dustyGray;
+  }
+}

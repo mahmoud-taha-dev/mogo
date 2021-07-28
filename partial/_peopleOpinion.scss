@@ -1,0 +1,51 @@
+.people-opinions {
+  padding: $sectionPadding;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(./assets/images/Layer53.png) no-repeat 50% 50%;
+  background-size: cover;
+  .people-opinions__title {
+    @extend %sectionTitle;
+  }
+  .media-body {
+    .media-body__title {
+      h5 {
+        font: {
+          size: 14px;
+          weight: $font400;
+          family: $montFont;
+        }
+        color: $mineShaft;
+      }
+      .media-body__title__text {
+        font: {
+          size: 15px;
+          weight: $font300;
+          style: italic;
+          family: $robotoFont;
+        }
+        line-height: 24px;
+        color: $mineShaft;
+      }
+    }
+    .media-body__title::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background-color: $froly;
+      margin-bottom: 20px;
+    }
+    .media-body__text {
+      line-height: 24px;
+      font: {
+        size: 15px;
+        weight: $font400;
+        family: $robotoFont;
+      }
+      color: $dustyGray;
+    }
+  }
+}

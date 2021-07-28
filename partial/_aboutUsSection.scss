@@ -1,0 +1,38 @@
+.about-us {
+  padding: $sectionPadding;
+  .about-us__title {
+    @extend %sectionTitle;
+  }
+  .about-us__text {
+    @extend %text;
+    width: 85%;
+  }
+  .about-us__wrapper {
+    position: relative;
+    &:hover {
+      -webkit-box-shadow: 10px 10px 0px 5px $morningGlory;
+      box-shadow: 10px 10px 0px 5px $morningGlory;
+      transform: translate(-10px, -10px);
+    }
+    .about-us__overlay {
+      position: absolute;
+      display: none;
+      background: linear-gradient(
+        rgba(219, 116, 117, 0.8),
+        rgba(228, 205, 125, 0.95)
+      );
+      p {
+        font: {
+          size: 16px;
+          family: $montFont;
+          weight: $font700;
+        }
+        color: $white;
+        text-align: center;
+      }
+    }
+    &:hover .about-us__overlay {
+      display: flex;
+    }
+  }
+}

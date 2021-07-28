@@ -1,0 +1,40 @@
+@import "partial/variables";
+@import "partial/placeholder";
+@import "partial/navbarSection";
+@import "partial/headerSection";
+@import "partial/aboutUsSection";
+@import "partial/amazingServicesSection";
+@import "partial/features";
+@import "partial/serviceSection";
+@import "partial/testimonialSection";
+@import "partial/ourTeamSection";
+@import "partial/quoteSection";
+@import "partial/peopleOpinion";
+@import "partial/blogSection";
+@import "partial/mapSection";
+@import "partial/mainFooter";
+.container {
+  width: 85%;
+}
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.logos {
+  padding: $sectionPadding;
+  background-color: $alabaster;
+}
+
+.work {
+  padding: $sectionPadding;
+  .work__title {
+    @extend %sectionTitle;
+  }
+  .work__text {
+    @extend %text;
+    width: 85%;
+  }
+}

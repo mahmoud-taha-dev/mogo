@@ -1,0 +1,31 @@
+.amazing-services {
+  padding: $sectionPadding;
+  .amazing-services__title {
+    @extend %sectionTitle;
+  }
+  .amazing-services__content {
+    .row:first-child {
+      border-bottom: 1px solid $mercury;
+    }
+    .amazing-services__wrapper {
+      padding: 50px 20px;
+    }
+    i {
+      color: $morningGlory;
+      font-size: 30px;
+      margin-right: 20px;
+    }
+    h4 {
+      font: {
+        size: 14px;
+        weight: $font400;
+        family: $montFont;
+      }
+      color: $mineShaft;
+    }
+    p {
+      @extend %text;
+      text-align: left;
+    }
+  }
+}

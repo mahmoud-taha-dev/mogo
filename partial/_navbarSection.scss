@@ -1,0 +1,16 @@
+nav {
+  z-index: 15;
+  font-family: $montFont;
+
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: $font700;
+  }
+  a {
+    font-size: 14px;
+    font-weight: $font400;
+  }
+  a:hover {
+    color: $sweetCorn !important;
+  }
+}

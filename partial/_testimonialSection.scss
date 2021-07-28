@@ -1,0 +1,31 @@
+.testimonial {
+  background: $alabaster;
+  padding: $sectionPadding;
+  .testimonial__img {
+    border: 3px solid $morningGlory;
+    color: $morningGlory;
+    padding: 20px 35px;
+    font-size: 40px;
+  }
+  .media-body {
+    font: {
+      size: 24px;
+      weight: $font300;
+      style: italic;
+      family: $robotoFont;
+    }
+    line-height: 36px;
+    color: $dustyGray;
+    footer {
+      font-weight: $font700;
+      h4 {
+        font: {
+          size: 24px;
+          weight: $font400;
+          family: $kaushanFont;
+        }
+        color: $mineShaft;
+      }
+    }
+  }
+}
